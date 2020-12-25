@@ -1,6 +1,8 @@
 # gwritter
 <strong>Come back to source to jump high</strong>
+<br>
 This is what i thought when i was build <strong>GWRITTER</strong>
+<br>
 Most developper don't write all the source code because the IDE give autocompletion and minimal code
 <strong>GWRITTER</strong> is a simple text editor write in Java
 <br>
