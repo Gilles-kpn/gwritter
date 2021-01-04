@@ -1,0 +1,4 @@
+{
+	keyword:{"!" ,"!=", "#" ,"%" ,"&" ,"&&", "'", "*", "+", "-" ,"/" ,"//", ":=", ";", "<", "<<", "<=", "<>" ,"=" ,"==" ,">" ,">=" ,">>" ,"and", "andalso" ,"as" ,"begin" ,"bool" ,"boolean" ,"break" ,"byte" ,"cbool" ,"cbyte" ,"cdbl" ,"char" ,"cint" ,"clng", "clngint" ,"clong" ,"continue" ,"csbyte" ",cshort" ,"csng" ,"cubyte" ,"cuint" ,"culng" ,"culngint", "cushort" ,"dim" ,"div" ,"do" ,"double", "else" ,"end", "exit", "false" ,"float" ,"if", "int", "int16" ,"int32" ,"int64" ,"int8" ,"integer" ,"long" ,"longint" ,"longword", "loop", "mod", "not", "or" ,"orelse", "qword" ,"real" ,"rem" ,"repeat" ,"sbyte" ,"shl", "short" ,"shortint", "shr", "signed" ,"single" ,"smallint" ,"then", "true" ,"ubyte", "uint", "uint16", "uint32", "uint64" ,"uint8" ,"uinteger", "ulong", "ulongint" ,"unsigned" ,"until" ,"ushort", "wend", "while" ,"word" ,"xor", "^" ,"|"},
+	language:all
+}
