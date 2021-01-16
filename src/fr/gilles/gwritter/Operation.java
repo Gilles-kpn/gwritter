@@ -18,7 +18,6 @@ public class Operation implements MouseListener{
 	private final JFileChooser choose = new JFileChooser();
 	@Override
 	public void mouseClicked(MouseEvent e) {
-		// TODO Auto-generated method stub
 		JMenuItem temp = (JMenuItem) e.getSource();
 		
 		switch(temp.getName()) {
@@ -71,7 +70,6 @@ public class Operation implements MouseListener{
 		if(returnval == JFileChooser.APPROVE_OPTION ) {
 			//if on text is specified like name file 
 			
-			
 			try {
 				Main.f.setCurrentfile(choose.getSelectedFile());
 				if(choose.getSelectedFile().getPath() != null ) {
@@ -107,7 +105,6 @@ public class Operation implements MouseListener{
 				write.write(Main.f.getWrittable().getText());
 				write.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
 		}
@@ -134,7 +131,6 @@ public class Operation implements MouseListener{
 							Main.f.setExt(Main.f.getCurrentfile().getName().substring(Main.f.getCurrentfile().getName().lastIndexOf(".")+1));
 							
 						} catch (IOException i) {
-							// TODO Auto-generated catch block
 							i.printStackTrace(); 
 						} 
 						
@@ -167,31 +163,26 @@ public class Operation implements MouseListener{
 				}
 				
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 	}
 	@Override
 	public void mouseEntered(MouseEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mouseExited(MouseEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mousePressed(MouseEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
