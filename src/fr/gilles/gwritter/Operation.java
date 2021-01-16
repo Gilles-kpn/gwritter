@@ -44,6 +44,7 @@ public class Operation implements MouseListener{
 				this.openterminal();
 				break;
 			}
+			default -> {//do nothing}
 		}
 		
 		
