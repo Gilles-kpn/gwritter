@@ -13,19 +13,16 @@ public class Trepaint implements KeyListener,CaretListener{
 
 	@Override
 	public void keyPressed(KeyEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void keyReleased(KeyEvent arg0) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void keyTyped(KeyEvent arg0) {
-		// TODO Auto-generated method stub
 		Main.f.colorate();
 		if(!Main.f.isCreated()) {
 			new Operation().Save();
@@ -35,7 +32,6 @@ public class Trepaint implements KeyListener,CaretListener{
 
 	@Override
 	public void caretUpdate(CaretEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
